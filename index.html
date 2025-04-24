@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Quiz App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="quiz">
+			<div class="quiz-wrapper">
+				<div class="quiz-start">
+					<button class="start-btn">Start Quiz</button>
+				</div>
+				<div class="quiz">
+					<div class="quiz-header">
+						<h4>Score: <span id="quiz-score-counter">0</span></h4>
+						<h3 class="quiz-timer">
+							Time Left: <span class="timer">120</span>
+						</h3>
+					</div>
+					<div class="quiz-bg">
+						<header class="quiz-title-bg">
+							<h1 class="quiz-title">Programming Quiz Application</h1>
+						</header>
+						<section class="quiz-body">
+							<h2 class="quiz-question">Question text</h2>
+							<div class="quiz-options">
+								<!-- Buttons will be added dynamically by JS -->
+								<button class="option-btn">Answer 2</button>
+								<button class="option-btn">Answer 2</button>
+								<button class="option-btn">Answer 2</button>
+								<button class="option-btn">Answer 2</button>
+							</div>
+						</section>
+						<footer class="quiz-footer">
+							<div class="quiz-number">
+								<span class="questions-done">4</span> of
+								<span class="total-questions">20</span> questions
+							</div>
+							<button class="quiz-next">Go to next question</button>
+						</footer>
+					</div>
+				</div>
+				<div class="quiz-result">
+					<h2>Quiz Completed!</h2>
+					<p>
+						Your final score is: <span id="final-score">0</span> out of
+						<span id="total-questions">0</span>
+					</p>
+					<button id="restart-btn">Restart Quiz</button>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
