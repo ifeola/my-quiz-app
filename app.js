@@ -354,8 +354,8 @@ nextBtn.addEventListener("click", () => {
 	if (firstQuestionIndex < questions.length) {
 		showQuestion();
 	} else if (firstQuestionIndex === questions.length) {
-		showQuestion();
 		nextBtn.textContent = "Submit Test";
+		showQuestion();
 	} else {
 		showResult();
 	}
