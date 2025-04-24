@@ -13,8 +13,8 @@ body {
 	background-color: var(--background-color);
 	line-height: 1.5;
 	font-weight: 400;
-	block-size: 100dvh;
 	block-size: 100vh;
+	block-size: 100dvh;
 	color: var(--text-color);
 }
 
@@ -196,7 +196,7 @@ ol {
 	align-items: center;
 	justify-content: space-between;
 	background-color: hsla(209, 92%, 90%, 0.15);
-	padding: 0.5rem 0.675rem;
+	padding: 0.725rem 0.875rem;
 	outline: none;
 	text-align: left;
 	border: 1px solid hsla(209, 92%, 90%, 0.376);
@@ -328,5 +328,16 @@ ol {
 
 	.quiz-next {
 		font-size: 0.875rem;
+	}
+
+	.quiz-title-bg,
+	.quiz-body,
+	.quiz-footer,
+	.quiz-result {
+		padding: 1rem;
+	}
+
+	.quiz-header {
+		padding: 1rem;
 	}
 }
